@@ -3,7 +3,7 @@ Simple scripts for various actions on linux using YAD (Yet Another Dialogue).
 Meant for use with polybar (explains the positions) but not strictly nesecary.
 
 ## volume.sh
-- amxier
+- amixer
 - core utils
   + grep
   + awk
@@ -16,3 +16,6 @@ Meant for use with polybar (explains the positions) but not strictly nesecary.
   + grep
   + cat
   + echo 
+
+## powermenu.sh
+none
