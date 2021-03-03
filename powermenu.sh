@@ -7,5 +7,5 @@ case $? in
 	70)poweroff;;
 	3)reboot;;
 	6)swaymsg exit;;
-	5)/home/all/Scripts/lock.sh || pkill -KILL -u $USER;;
+	5)swaylock || pkill -KILL -u $USER;;
 esac
