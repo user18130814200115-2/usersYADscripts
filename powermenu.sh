@@ -6,6 +6,6 @@ case $? in
 	4)poweroff;;
 	70)poweroff;;
 	3)reboot;;
-	6)swaymsg exit;;
+	6)pkill -KILL -u $USER;;
 	5)swaylock || pkill -KILL -u $USER;;
 esac
