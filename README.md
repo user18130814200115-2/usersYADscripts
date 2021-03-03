@@ -18,4 +18,7 @@ Meant for use with polybar (explains the positions) but not strictly nesecary.
   + echo 
 
 ## powermenu.sh
-none
+for logout:
+- sway
+for lockscreen:
+- swaylock
