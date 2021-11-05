@@ -22,3 +22,29 @@ for logout:
 - sway
 for lockscreen:
 - swaylock
+
+## wifimenu.sh
+- nmcli
+- printf
+- (GNU) sed
+- notify-send.sh
+- sleep
+- kill
+- killall
+- cat
+
+### Optional
+I use wlrctl to place the YAD window at a given position because river does not respect yad's `--geometry` setting.
+These sections can be remove though.
+- river
+- wlrctl 
+
+## wifimenu-minimal.sh
+Wifimenu, but without the fancy stuff (notifications and river specific stuff)
+- nmcli
+- printf
+- (GNU) sed
+- sleep
+- kill
+- killall
+- cat
