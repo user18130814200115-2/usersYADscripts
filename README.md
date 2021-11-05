@@ -27,6 +27,8 @@ for lockscreen:
 - nmcli
 - printf
 - (GNU) sed
+- xargs
+- pidof
 - notify-send.sh
 - sleep
 - kill
@@ -44,6 +46,8 @@ Wifimenu, but without the fancy stuff (notifications and river specific stuff)
 - nmcli
 - printf
 - (GNU) sed
+- pidof
+- xargs
 - sleep
 - kill
 - killall
